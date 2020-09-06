@@ -2,11 +2,12 @@
  * @Author: hanxueliang
  * @Date: 2020-09-06 20:39:13
  * @LastEditors: hanxueliang
- * @LastEditTime: 2020-09-06 20:39:56
+ * @LastEditTime: 2020-09-06 20:57:44
+ * # 25匹马 5赛道 找到前三名最少要比赛多少次
+ * # 特点：二叉树
  */
 function horse25() {
   let count = 0;
-  const NUM = 25;
   const source = [];
   function game(arr, fun = (a, b) => (a -b)) {
     count += 1;
